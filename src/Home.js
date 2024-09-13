@@ -2,7 +2,7 @@ import "./home.css"
 function Home(){
     return(
         <div className="homeContain">
-            <div className="textDiv ">
+            <div className="homeMainContain">
                 <div className="homedetails">
                     <p className="besttext">Best Coffee</p>
                     <p className="special">Make your day great with our special coffee!</p>
@@ -12,10 +12,9 @@ function Home(){
                         <button className="contactUs">Contact Us</button>
                     </div>
                 </div>
-                
-            </div>
-            <div className="imageDiv">
-                <img src="coffee-hero-section.png" alt="" className="coffeeImg"/>
+                <div className="imageDiv">
+                    <img src="coffee-hero-section.png" alt="" className="coffeeImg"/>
+                </div>
             </div>
 
         </div>

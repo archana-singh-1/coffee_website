@@ -1,20 +1,20 @@
-import "./navbar.css"
-function Navbar (){
-    return(
+import "./navbar.css";
+function Navbar() {
+    return (
         <div className="navbar">
+            <div className="navbarDetails">
             <div className="logoname">Coffee</div>
             <div className="details">
-                <div className="home">Home</div>
-                <div className="about">About</div>
-                <div className="menu">Menu</div>
-                <div className="testimonial">Testimonial</div>
-                <div className="gellary">Gellary</div>
-                <div className="contact">contact Us</div>
+                <a href="#home" className="home">Home</a>
+                <a href="#about" className="about">About</a>
+                <a href="#menu" className="menu">Menu</a>
+                <a href="#testimonial" className="testimonial">Testimonial</a>
+                <a href="#gallery" className="gallery">Gallery</a>
+                <a href="#contact" className="contact">Contact Us</a>
+            </div>
             </div>
             
-            
-
         </div>
-    )
+    );
 }
 export default Navbar;

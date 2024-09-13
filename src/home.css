@@ -5,18 +5,16 @@
 
 .homeContain{
     width: 100%;
-    height: 700px;
+    min-height: 100vh;
     background-color: #803D3B;
+    
+}
+
+.homeMainContain{
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: auto;
     display: flex;
-}
-
-.textDiv{
-    width: 50%;
-    height: 400px;
-}
-.imageDiv{
-    width: 50%;
-
 }
 
 .besttext{
@@ -30,7 +28,7 @@
 .homedetails{
     width: 400px;
     height: 200px;
-    margin: 171px;
+    padding-top: 300px;
 }
 
 .special{
@@ -47,15 +45,17 @@
     padding-top: 12px;
 }
 .coffeeImg{
-    width: 654px;
-    padding: 107px;
+    width: 409px;
+    padding-top: 208px;
+    margin-left: 351px;
+
 
 }
 
 .buttons {
     display: flex;
     gap: 17px; 
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .orderNow{
@@ -95,4 +95,4 @@
 
 .contactUs:hover {
     background-color: #FFB22C; 
-}
+} 
